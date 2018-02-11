@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "webpack": "webpack --progress --config=webpack.config.js",
+    "build": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.9.2",
+    "lodash": "^4.14.0",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.2"
+  }
+}
