@@ -240,3 +240,5 @@ Route::get('view-models', 'WelcomeController@viewModel');
 Route::get('/guest-user', function() {
 	 return view('guest-user');
 });
+
+Route::post('/contact', 'ContactController@postContact');
